@@ -1,0 +1,30 @@
+# Maven
+**/target/
+*.class
+*.jar
+*.war
+*.log
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# Secrets / local overrides
+**/application-local.yml
+**/application-dev.yml.local
+.env
+.env.*
+*.pem
+*.p12
+*.jks
+**/apiclient_key.*
+
+# OS
+.DS_Store
+Thumbs.db
